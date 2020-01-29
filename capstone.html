@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Wanderlust</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/design.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header>
+		<nav class="navbar">
+		  <a href="#home" class="logo">Wanderlust</a>
+		  <div id="navlinks">
+		  	  <a href="#home"><i class="fa fa-home"></i> Home</a>
+			  <a href="#contact"><i class="fa fa-address-book"></i> Contact</a>
+			  <a href="#about"><i class="fa fa-info-circle"></i> About</a> 
+		  </div>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		    <i class="fa fa-bars"></i>
+		  </a>
+		</nav>
+	</header>
+
+	<div class="modal" id="modal">
+		<span class="close" id="close" onclick="closeModal()">&times;</span>
+		<img src="#" class="modal-content" id="img1" alt="modal-image">
+		<div id="caption"></div>
+	</div>
+
+	<div class="back-wall">
+		<div class="middle-align abs-position">
+			<div class="center-box"></div>
+			test<br>
+			test<br>
+			test<br>
+			test<br>
+			test<br>
+			test<br>
+			test<br>
+			test<br>
+		</div>
+	</div>
+	
+	<div class="middle-align rel-position">
+		<div class="image-holder">
+			<img src="images/torna.jpg" alt="Torna" style="width:100%;" onclick="displayModal(this)">
+			<div class="img-desc"><a target="_blank" class="link-desc" href="https://www.google.com/maps/place/Torna+Hiking+Trail/@18.2813116,73.6234885,15z/data=!4m5!3m4!1s0x0:0x2a6faa61cdb21867!8m2!3d18.2813116!4d73.6234885" title="Torna map">Torna <i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+		</div>
+		<div class="point-desc">
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		</div>
+	</div>
+	<div class="middle-align rel-position">
+		<div class="image-holder float-right">
+			<img src="images/dhak.jpg" alt="Dhak Bahiri" style="width:100%;" onclick="displayModal(this)">
+			<div class="img-desc"><a target="_blank" class="link-desc" href="https://www.google.com/maps/place/Dhak+Bahiri+Caves/@18.8749924,73.4261262,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7ff1a5dfe6ee5:0x4734edaee18cc326!8m2!3d18.8749873!4d73.4283149" title="Dhak Bahiri map">Dhak Bahiri Caves <i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+		</div>
+		<div class="point-desc float-right">
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		</div>
+	</div>
+	<div class="middle-align rel-position">
+		<div class="image-holder">
+			<img src="images/rajgad.jpg" alt="Rajgad" style="width:100%;" onclick="displayModal(this)">
+			<div class="img-desc"><a target="_blank" class="link-desc" href="https://www.google.com/maps/place/Rajgad+Fort/@18.2466579,73.6800798,17z/data=!3m1!4b1!4m5!3m4!1s0x3bc28fa3eb07c019:0xe2f323ba03aacd31!8m2!3d18.2466528!4d73.6822685" title="Rajgad map">Rajgad <i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+		</div>
+		<div class="point-desc">
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		</div>
+	</div>
+	<div class="middle-align rel-position">
+		<div class="image-holder float-right">
+			<img src="images/K2S.jpg" alt="K2S" style="width:100%;" onclick="displayModal(this)">
+			<div class="img-desc"><a target="_blank" class="link-desc" href="https://www.google.com/maps/place/Katraj+-+Sinhagad+(K2S)+Trek+Path/@18.400908,73.8327995,15z/data=!4m12!1m6!3m5!1s0x3bc2eb4c19675c3b:0xe19e37c87c1994fb!2sNew+Katraj+Tunnel!8m2!3d18.4069703!4d73.8473263!3m4!1s0x3bc294aba49c48db:0x1b4971f0eaa001f5!8m2!3d18.39397!4d73.8383523" title="K2S map">K2S <i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+		</div>
+		<div class="point-desc float-right">
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		</div>
+	</div>
+
+	<footer>
+		
+	</footer>
+	<script src="js/capstone.js"></script>
+</body>
+</html>

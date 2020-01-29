@@ -1,0 +1,217 @@
+body {
+	box-sizing: border-box;
+	font-family: fantasy, Lato, Arial;
+	margin: 0px;
+	padding: 0px;
+	background: url('../images/background-1.png') fixed repeat;
+	background-size: cover;
+	background-blend-mode: lighten;
+}
+
+.back-wall {
+	height: 600px;
+	background: #46cf6b url("../images/rajgad2.jpg") no-repeat fixed top;
+	position: relative;
+}
+
+.center-box {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top: -5%;
+	left: 80%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	background: #d4d4d4 url("../images/profile.jpg");
+}
+
+.middle-align {
+	width: 95%;
+	margin: 25px auto 5px auto;
+	box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, .5);
+	border-radius: 8px;
+	padding: 0px;
+	background: #e6cfb3;
+}
+
+.abs-position {
+	position: absolute;
+	top: 600px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fce9d2;
+}
+
+.rel-position {
+	position: relative;
+	top: 120px;
+	overflow: hidden;
+	background: rgba(230, 207, 179, 0.5);
+}
+
+.image-holder {
+	background-color: rgba(66, 115, 184, 0.4);
+	
+}
+
+.img-desc {
+	text-align: center;
+	padding: 10px;
+	font-size: 160%;
+	font-family: inherit;
+	font-weight: bold;
+	
+}
+
+.img-desc > a {
+	text-decoration: none;
+	color: #2c5ba8;
+}
+
+.fa-map-marker {
+	color: #e0302d;
+}
+
+
+nav {
+	overflow: hidden;
+	background: rgba(252, 233, 210, 0.9);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+nav > #navlinks > a , .logo{
+	text-decoration: none;
+	padding: 20px;
+	display: inline-block;
+	font-size: 150%;
+	color: #2c5ba8;
+}
+
+.logo {
+	font-size: 160%;
+	font-weight: bold;
+}
+
+#navlinks {
+	float: right;
+}
+
+nav > #navlinks> a:hover, div > a:hover, .image-holder img:hover {
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.modal {
+	width: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	z-index: 20;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: auto;
+	padding-top: 100px;
+	display: none;
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 700px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  font-size: 200%;
+}
+
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+footer {
+	padding: 40px;
+	background: rgba(252, 233, 210);
+	position: relative;
+	top: 140px;
+	overflow: hidden;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+.close {
+	font-size: 400%;
+	color: #cfcfcf;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+
+.close:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.point-desc {
+	width: 95%;
+	margin: 10px;
+    text-align: justify;
+}
+
+.icon {
+  color: #2c5ba8;
+  font-size: 120%;
+  display: block;
+  position: absolute;
+  padding: 25px;
+  right: 0;
+  top: 0;
+}
+
+
+@media screen and (min-width: 992px) {
+
+.middle-align {
+	width: 70%;
+}
+
+.icon {
+	display: none;
+}
+
+.point-desc {
+	float: left; 
+	width: 55%; 
+	font-size: 120%;
+}
+
+.image-holder {
+	width: 40%;
+	float: left;
+	border-radius: 8px;
+}
+
+.float-right {
+	float: right;
+}
+
+.modal-content {
+    width: 80%;
+  }
+
+}
