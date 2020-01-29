@@ -25,3 +25,11 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+
+function showNav() {
+	var w = window.outerWidth;
+	var x = document.getElementById("navlinks");
+	if (w > 992) {
+		x.style.display = "block";
+	}
+}
