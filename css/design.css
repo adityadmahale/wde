@@ -82,21 +82,28 @@ nav {
 	z-index: 10;
 }
 
-nav > #navlinks > a , .logo{
+nav > #navlinks > a {
 	text-decoration: none;
 	padding: 20px;
-	display: inline-block;
+	display: block;
 	font-size: 150%;
 	color: #2c5ba8;
 }
 
 .logo {
+	text-decoration: none;
+	padding: 20px;
+	display: inline-block;
+	font-size: 150%;
+	color: #2c5ba8;
 	font-size: 160%;
 	font-weight: bold;
 }
 
 #navlinks {
-	float: right;
+	float: left;
+	width: 100%;
+	display: none;
 }
 
 nav > #navlinks> a:hover, div > a:hover, .image-holder img:hover {
@@ -192,6 +199,16 @@ footer {
 
 .icon {
 	display: none;
+}
+
+#navlinks {
+	float: right;
+	width: auto;
+	display: block;
+}
+
+nav > #navlinks > a {
+	display: inline-block;
 }
 
 .point-desc {
