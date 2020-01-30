@@ -52,7 +52,6 @@ body {
 
 .image-holder {
 	background-color: rgba(66, 115, 184, 0.4);
-	
 }
 
 .img-desc {
@@ -61,7 +60,6 @@ body {
 	font-size: 160%;
 	font-family: inherit;
 	font-weight: bold;
-	
 }
 
 .img-desc > a {
@@ -208,6 +206,9 @@ footer {
 	font-size: 110%;
 }
 
+.imgthumb {
+	width: 100%;
+}
 
 @media screen and (min-width: 992px) {
 
