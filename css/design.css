@@ -40,12 +40,13 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background: #fce9d2;
-	padding-left: 10px; 
+	padding: 0px 5px 5px 10px; 
+	text-align: justify;
 }
 
 .rel-position {
 	position: relative;
-	top: 140px;
+	top: 150px;
 	overflow: hidden;
 	background: rgba(230, 207, 179, 0.5);
 }
@@ -203,7 +204,7 @@ footer {
 
 .about {
 	font-weight: bold;
-	font-size: 110%;
+	font-size: 120%;
 }
 
 .imgthumb {
@@ -232,6 +233,14 @@ footer {
 
 nav > #navlinks > a {
 	display: inline-block;
+}
+
+.abs-position {
+	font-size: 120%;
+}
+
+.rel-position {
+	top: 120px;
 }
 
 .point-desc {
