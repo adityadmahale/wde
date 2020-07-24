@@ -13,6 +13,6 @@ The page validates as per w3 validator rule. It has a responsive web design havi
 
 Project Link: http://adwde.byethost22.com/wdecapstone/capstone.html
 
-![Desktop View] (./screenshots/desktop-view.gif)
+![Desktop](./screenshots/desktop-view.gif)
 
-![Mobile View] (./screenshots/mobile-view.gif)
+![Mobile](./screenshots/mobile-view.gif)
