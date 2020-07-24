@@ -12,3 +12,7 @@ This portfolio is a single webpage linking to the different parts of the page th
 The page validates as per w3 validator rule. It has a responsive web design having two major views(Mobile/Tablet view and Desktop view).
 
 Project Link: http://adwde.byethost22.com/wdecapstone/capstone.html
+
+![Desktop View] (./screenshots/desktop-view.gif)
+
+![Mobile View] (./screenshots/mobile-view.gif)
